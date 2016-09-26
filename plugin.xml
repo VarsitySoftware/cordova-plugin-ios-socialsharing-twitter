@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  id="com.varsitysoftware.plugins.ios.socialsharing.twitter"
+  version="1.0.0">
+
+	<name>SocialSharing Twitter</name>
+	 
+	<description>
+		This plugin allows sharing files (including animated gifs and videos) to Twitter
+	</description>
+	
+	<license>MIT</license>
+
+	<engines>
+		<engine name="cordova" version=">=3.5.0" />
+	</engines>  
+
+	<js-module src="www/socialsharingtwitter.js" name="SocialSharingTwitter">
+		<clobbers target="plugins.socialSharingTwitter" />
+	</js-module>
+
+	<!-- ios -->
+	<platform name="ios">
+		<config-file target="config.xml" parent="/*">
+			<feature name="SocialSharingTwitter">
+				<param name="ios-package" value="SocialSharingTwitter"/>
+			</feature>
+		</config-file>
+
+		<header-file src="src/ios/SocialSharingTwitter.h" />
+		<source-file src="src/ios/SocialSharingTwitter.m" />
+
+	</platform>
+
+</plugin>
