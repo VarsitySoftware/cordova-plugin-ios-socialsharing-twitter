@@ -10,7 +10,7 @@ var SocialSharingTwitter = function ()
 
 };
 
-SocialSharingTwitter.prototype.delete = function (success, fail, options)
+SocialSharingTwitter.prototype.sendTweet = function (success, fail, options)
 {
     if (!options) {
         options = {};
