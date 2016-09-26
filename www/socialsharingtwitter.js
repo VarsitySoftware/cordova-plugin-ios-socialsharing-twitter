@@ -19,6 +19,7 @@ SocialSharingTwitter.prototype.delete = function (success, fail, options)
     var params = {
         fileURL: options.fileURL ? options.fileURL : null,
         fileType: options.fileType ? options.fileType : null,
+        fileName: options.fileName ? options.fileName : null,
         message: options.message ? options.message : null        
     };
 
