@@ -8,7 +8,7 @@
 
 #import <Cordova/CDVPlugin.h>
 
-@interface DeleteFiles : CDVPlugin < UINavigationControllerDelegate, UIScrollViewDelegate>
+@interface SocialSharingTwitter : CDVPlugin < UINavigationControllerDelegate, UIScrollViewDelegate>
 
 @property (copy)   NSString* callbackId;
 
