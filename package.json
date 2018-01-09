@@ -1,0 +1,20 @@
+{
+    "version": "0.0.1",
+    "name": "cordova-ios-socialsharing-twitter",
+    "cordova_name": "IOS Social Sharing Twitter",
+    "description": "IOS  Social Sharing Twitter",
+    "license": "MIT",
+    "repo": "https://github.com/VarsitySoftware/cordova-plugin-ios-socialsharing-twitter.git",
+    "keywords": [
+        "cordova",
+        "ios",
+        "UIStatusBarHidden",
+        "UIViewControllerBasedStatusBarAppearance",
+        "ios9"
+    ],
+    "platforms": [
+        "ios"
+    ],
+    "engines": [],
+    "englishdoc": ""
+}
